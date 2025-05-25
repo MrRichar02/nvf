@@ -27,8 +27,8 @@
     autocomplete.nvim-cmp.enable = true;
 
     options = {
-      tabstop = 4;
-      shiftwidth = 4;
+      tabstop = 2;
+      shiftwidth = 2;
     };
 
     keymaps = [
@@ -57,11 +57,7 @@
       enableTreesitter = true;
       enableExtraDiagnostics = true;
 
-      nix = {
-        enable = true;
-        lsp.package = pkgs.nixd;
-        lsp.server = "nixd";
-      };
+      nix.enable = true; 
       python.enable = true;
     };
   };
