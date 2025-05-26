@@ -59,6 +59,7 @@
 
       nix.enable = true; 
       python.enable = true;
+      java.enable = true;
     };
   };
 }
