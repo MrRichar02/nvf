@@ -52,8 +52,9 @@
       }
     ];
 
+    lsp.enable = true;
+
     languages = {
-      enableLSP = true;
       enableTreesitter = true;
       enableExtraDiagnostics = true;
 
