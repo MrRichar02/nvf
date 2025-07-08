@@ -57,7 +57,11 @@
       enableTreesitter = true;
       enableExtraDiagnostics = true;
 
-      nix.enable = true; 
+      nix = {
+        enable = true;
+        lsp.server = "nixd";
+        lsp.package = pkgs.nixd;
+      };
       python.enable = true;
       java.enable = true;
     };
