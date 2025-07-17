@@ -65,6 +65,8 @@
       };
       python.enable = true;
       java.enable = true;
+      yaml.enable = true;
+      markdown.enable = true;
     };
   };
 }
