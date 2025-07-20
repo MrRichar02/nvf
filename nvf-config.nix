@@ -54,6 +54,12 @@
 
     lsp.enable = true;
 
+    diagnostics = {
+      enable = true;
+      config.virtual_lines = { current_line = true; };
+      config.signs = true;
+    };
+
     languages = {
       enableTreesitter = true;
       enableExtraDiagnostics = true;
