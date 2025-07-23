@@ -56,7 +56,7 @@
 
     diagnostics = {
       enable = true;
-      config.virtual_lines = { current_line = true; };
+      config.virtual_text = { current_line = true; };
       config.signs = true;
     };
 
